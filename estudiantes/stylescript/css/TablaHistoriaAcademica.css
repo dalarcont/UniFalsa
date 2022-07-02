@@ -1,0 +1,56 @@
+table.historiaAcademicaTbl {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    height: auto;
+    text-align: center !important;
+    border-collapse: collapse;
+  }
+  table.historiaAcademicaTbl td, table.historiaAcademicaTbl th {
+    border: 1px solid #FFFFFF;
+    padding: 6px 0px;
+  }
+  table.historiaAcademicaTbl tbody td {
+    font-size: 13px;
+    text-align: center;
+  }
+  table.historiaAcademicaTbl tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.historiaAcademicaTbl thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  table.historiaAcademicaTbl thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center !important;
+    border-left: 2px solid #FFFFFF;
+  }
+  table.historiaAcademicaTbl thead th:first-child {
+    border-left: none;
+  }
+  
+  table.historiaAcademicaTbl tfoot td {
+    font-size: 14px;
+  }
+  .historialTitularPrograma{
+    font-size:16px;
+    font-family: 'Trebuchet MS', 'Arial', 'Helvetica', Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center !important;
+  }
+
+  .itemsTabla{
+    font-size:16px !important;
+    font-family: 'Trebuchet MS', 'Arial', 'Helvetica', Sans-Serif !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    color:#5c0707;
+    align-content: center;
+  }
